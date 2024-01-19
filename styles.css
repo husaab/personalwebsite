@@ -1,0 +1,89 @@
+.logo-nav{
+    width: 45px;
+    
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.hello{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.intro{
+    font-size: 22px;
+    color: white;
+}
+
+.navbar{
+    background: #00316E;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+.insidehero{
+    background-color: white;
+    padding: 10px;
+}
+
+.img-thumbnail{
+    width: 300px;
+    margin-bottom: 15px;
+    background-color:white;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.thumbnaildiv{
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js{
+    background-color: #111827;
+    position: fixed;
+    width: 100%;
+    z-index: -1; 
+}
+
+
+/**.aboutme{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutwriteup{
+    background-color: #00316E;
+    color: white;
+    padding: 10px;
+    font-family: "Roboto Slab";
+    max-width: 600px;
+
+    .img-thumbnail{
+    width: 300px;
+    margin-bottom: 15px;
+    background-color:white;
+    padding: 5px;
+    position: relative;
+}
+
+}**/
