@@ -3,6 +3,10 @@
     
 }
 
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -26,16 +30,19 @@
 }
 
 .intro{
-    font-size: 22px;
+    font-size: 24px;
+    text-align: center;
     color: white;
+    z-index: 2;
 }
 
 .navbar{
     background: #00316E;
+    
 }
 
 .nav-link{
-    font-weight: 600;
+    font-weight: 950;
 }
 
 .insidehero{
@@ -43,13 +50,15 @@
     padding: 10px;
 }
 
+
+
 .img-thumbnail{
     width: 300px;
     margin-bottom: 15px;
     background-color:white;
     padding: 5px;
     position: relative;
-    z-index: 1;
+    
 }
 
 .thumbnaildiv{
@@ -59,31 +68,75 @@
 
 #particles-js{
     background-color: #111827;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    z-index: -1; 
+    z-index: 1; 
 }
 
 
-/**.aboutme{
-    background-color: lightpink;
-    display: flex;
-    justify-content: center;
+.text-container {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
 }
+
+
+
 
 .aboutwriteup{
-    background-color: #00316E;
-    color: white;
-    padding: 10px;
-    font-family: "Roboto Slab";
-    max-width: 600px;
-
-    .img-thumbnail{
-    width: 300px;
-    margin-bottom: 15px;
-    background-color:white;
-    padding: 5px;
-    position: relative;
+    text-align: center;
+    max-width: 900px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
 
-}**/
+.aboutme{
+    width: 100%;
+    background-color: pink;
+   
+}
+
+
+
+
+.borderBlack {
+    border-width: 1px;
+    border-color: rgba(0,0,0,.1);
+}
+
+.text-gray-950 {
+    --tw-text-opacity: 1;
+    color: rgb(3 7 18/var(--tw-text-opacity));
+}
+
+.py-3 {
+    padding-top: 10rem;
+    padding-bottom: .75rem;
+}
+
+.px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.linkedin{
+    background-color: black;
+    opacity: 70%;
+}
+
+.github:hover{
+    color: black;
+}
+
+.group{
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+
+.aboutheader{
+    margin-bottom: 30px;
+}
