@@ -179,8 +179,8 @@
     max-width: 400px;
     padding: 15px;
     border-radius: 10px;
-
-    border: 1px solid black;
+    background-color: #F3F4F6;
+    
 }
 
 .ibmicon{
