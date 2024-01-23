@@ -103,6 +103,14 @@
     margin-top: 50px;
 }
 
+.bottombordereducation{
+    border-top: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 950px;
+   
+}
+
 
 .text-gray-950 {
     --tw-text-opacity: 1;
@@ -147,12 +155,42 @@
 
 
 
-.experience{
-    padding-top: 25px;
-    display: flex;
-    justify-content: center;
-    width: 90%;
+
+
+.cardcontainer{
+    
+    background-color: #F3F4F6;
+    padding: 15px; 
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
+.tmuicon{
+    width: 200px;
+  
+}
 
+.educationtext{
+    margin-bottom: 0;
+}
+
+.experiencecontainer{
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+
+    border: 1px solid black;
+}
+
+.ibmicon{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.experiencepart{
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 20px;
+}
 
