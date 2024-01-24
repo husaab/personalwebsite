@@ -34,13 +34,13 @@
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link hvr-grow" href="#">About Me</a>
+                        <a class="nav-link hvr-grow" href="#aboutmelink">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-grow" href="#">Education</a>
+                        <a class="nav-link hvr-grow" href="#educationlink">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hvr-grow" href="#">Experience</a>
+                        <a class="nav-link hvr-grow" href="#experiencelink">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link hvr-grow" href="#">Projects</a>
@@ -56,7 +56,7 @@
 
         <section style="height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; ">
             <div id="particles-js" class="hero container-fluid text-center pt-5 align-items-center" style="height: 400px;"></div>
-            <div class="thumbnaildiv">
+            <div class="thumbnaildiv" id="aboutmelink">
                 <img src="images/headshot.jpg" class="img-thumbnail">
             </div>
             <div class="text-container" style="text-align: center; margin-top: 20px; color: white;">
@@ -72,7 +72,7 @@
         
 
          <div class="aboutme container-fluid d-flex justify-content-center pt-5" style=" padding-bottom: 30px;">
-            <div class="aboutwriteup">
+            <div class="aboutwriteup" >
                 <h4 class="aboutheader">I'm Hussein! A Software Engineer studying at Toronto Metropolitan University. I enjoy working on personal projects, developing my skills and connecting with new people! </h4>
                 
 
@@ -80,12 +80,12 @@
                 
                 <a class="hvr-grow linkedin group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40" href="https://www.linkedin.com/in/huss-saab/" target="_blank"><span class="opacity-70">LinkedIn</span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="opacity-70" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path></svg></a>
                 
-                <div class="bottomborder"></div>
+                <div class="bottomborder" id="educationlink"></div>
             </div>
             
         </div>
 
-        <div class="education container-fluid">
+        <div class="education container-fluid" >
             <h2 class="text-center" style="padding-bottom: 15px;">My Education</h2>
 
             <div class="cardcontainer row">
@@ -107,60 +107,51 @@
 
             </div>
 
-            <div class="bottombordereducation"></div>
+            <div class="bottombordereducation" id="experiencelink"></div>
         </div>
 
         <div class="experience container-fluid">
 
             <h2 class="text-center" style="padding: 20px;">My Experience</h2>
 
-            <div class="experiencetree container-fluid">
+            
 
-                <div class="experiencepart row">
-
-                    <div class="experiencecontainer col-sm-6">
-
-                        <img src="images/untitleddevs.png" class="ibmicon">
-                        <h5 style="font-weight: 800;">Software Engineer Intern</h5>
-                        <p> Back-end development at IBM</p>
-
+            <div class="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns"><div class="vertical-timeline-element">
+                <span style="background:white;font-size:1.5rem" class="vertical-timeline-element-icon bounce-in"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17 7C17 5.34315 15.6569 4 14 4H10C8.34315 4 7 5.34315 7 7H6C4.34315 7 3 8.34315 3 10V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V10C21 8.34315 19.6569 7 18 7H17ZM14 6H10C9.44772 6 9 6.44772 9 7H15C15 6.44772 14.5523 6 14 6ZM6 9H18C18.5523 9 19 9.44772 19 10V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18V10C5 9.44772 5.44772 9 6 9Z" fill="currentColor"></path></svg></span><div style="background:#f3f4f6;box-shadow:none;border:1px solid rgba(0, 0, 0, 0.05);text-align:left;padding:1.3rem 2rem" class="vertical-timeline-element-content bounce-in"><div style="border-right:0.4rem solid #9ca3af" class="vertical-timeline-element-content-arrow"></div>
+                    <img src="images/untitleddevs.png" class="companyicon">
+                    <h3 class="font-semibold capitalize">Software Engineer Intern</h3>
+                    <p class="font-normal !mt-0"><b>Untitled Developers</b></p><p class="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                        Developed and maintained Flutter applications used by over 5000+ users and delivered high quality landing pages and websites using HTML, CSS, Javascript and React</p>
+                        <span class="vertical-timeline-element-date" style="font-size: 20px;">
+                            <b>May 2023 - September 2023</b></span>
                     </div>
-
-                    <div class="col-sm-2">
-                        
-                    </div>
-
-                    <div class="col-sm-4 d-flex align-items-center">
-                        <h5 style="padding: 10px;">May 2023 - August 2023</h5>
-                    </div>
-
                 </div>
-
-                <div class="experiencepart row">
-
-                    <div class="col-sm-4 d-flex align-items-center">
-
-                        <h5>May 2024 - August 2025</h5>
-
-                    </div>
-
-                    <div class="col-sm-2">
+                <div  class="vertical-timeline-element">
+                    <span style="background:white;font-size:1.5rem" class="vertical-timeline-element-icon bounce-in">
+                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 7C17 5.34315 15.6569 4 14 4H10C8.34315 4 7 5.34315 7 7H6C4.34315 7 3 8.34315 3 10V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V10C21 8.34315 19.6569 7 18 7H17ZM14 6H10C9.44772 6 9 6.44772 9 7H15C15 6.44772 14.5523 6 14 6ZM6 9H18C18.5523 9 19 9.44772 19 10V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18V10C5 9.44772 5.44772 9 6 9Z" fill="currentColor"></path></svg></span><div style="background:#f3f4f6;box-shadow:none;border:1px solid rgba(0, 0, 0, 0.05);text-align:left;padding:1.3rem 2rem" class="vertical-timeline-element-content bounce-in"><div style="border-right:0.4rem solid #9ca3af" class="vertical-timeline-element-content-arrow"></div>
+                        <img src="images/ibmlogopng.png" class="companyicon"><h3 class="font-semibold capitalize">Backend & Automation Developer</h3><p class="font-normal !mt-0"></p><p class="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                            Back-end development at <b>IBM</b>, using Java, Kotlin, Swift to develop supply chain solutions for companies such as Amazon etc.</p><span class="vertical-timeline-element-date" style="font-size: 20px;"><b>May 2024 - August 2025</b></span></div></div>
                         
-                    </div>
-
-                    <div class="col-sm-6 experiencecontainer">
-                        <img src="images/ibmlogopng.png" class="ibmicon">
-                        <h5 style="font-weight: 800;">Backend and Automation Developer</h5>
-                        <p> Back-end development at IBM</p>
+                        <!-- <div id="" class="vertical-timeline-element"><span style="background:white;font-size:1.5rem" class="vertical-timeline-element-icon bounce-in">
+                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 7C17 5.34315 15.6569 4 14 4H10C8.34315 4 7 5.34315 7 7H6C4.34315 7 3 8.34315 3 10V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V10C21 8.34315 19.6569 7 18 7H17ZM14 6H10C9.44772 6 9 6.44772 9 7H15C15 6.44772 14.5523 6 14 6ZM6 9H18C18.5523 9 19 9.44772 19 10V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18V10C5 9.44772 5.44772 9 6 9Z" fill="currentColor"></path></svg></span><div style="background:#f3f4f6;box-shadow:none;border:1px solid rgba(0, 0, 0, 0.05);text-align:left;padding:1.3rem 2rem" class="vertical-timeline-element-content bounce-in"><div style="border-right:0.4rem solid #9ca3af" class="vertical-timeline-element-content-arrow"></div><h3 class="font-semibold capitalize">Software Engineer</h3><p class="font-normal !mt-0">The University of Queensland - Full-time</p><p class="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                            Full-stack software engineer in the Application Development and Support team. Currently working on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.</p><span class="vertical-timeline-element-date">November 2022 - Present</span></div></div> -->
                         
-                    </div>
+                        </div>
 
-                </div>
+                        </div>
 
+                        <div class="bottomborderexperience"></div>
+                        
+            
+        
+        <div class="projects container-fluid">
 
-            </div>
+            <h2 class="text-center" style="padding: 20px;">My Projects</h2>
 
         </div>
+
+            
     
         
         
