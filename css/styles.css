@@ -79,7 +79,10 @@
     z-index: 10;
 }
 
-
+.previewimage{
+    
+    width: 100%;
+}
 
 
 .aboutwriteup{
@@ -166,6 +169,53 @@
 }
 
 
+.projectcard{
+    background-color: #F3F4F6;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projects{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.musiccard{
+    background-image: url("https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    color: white;
+    font-weight: 800;
+}
+
+.todolistcard{
+    margin-top: 30px;
+    background-image: url("https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    color: white;
+    font-weight: 900;
+    
+}
+
+
+
+
+.languageicon{
+    max-width: 60px;
+    height: 50px;
+  
+}
+
+.madewithsection{
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 
 
