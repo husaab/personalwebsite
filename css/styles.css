@@ -168,35 +168,33 @@
     margin-bottom: 30px;
 }
 
-
 .projectcard{
-    background-color: #F3F4F6;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.projectsec{
+    
     padding: 15px;
-    border-radius: 10px;
-    max-width: 800px;
+    
+    width: 100%;
     margin: 0 auto;
 }
 
 .projects{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     
 }
 
-.musiccard{
-    background-image: url("https://images.pexels.com/photos/164821/pexels-photo-164821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-    background-size: cover;
-    color: white;
-    font-weight: 800;
-}
-
-.todolistcard{
-    margin-top: 30px;
-    background-image: url("https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-    background-size: cover;
-    color: white;
-    font-weight: 900;
-    
+.previewimage{
+    margin: 0 auto;
+    text-align: center;
+    max-height: 300px;
+    padding-bottom: 15px;
 }
 
 
@@ -217,7 +215,14 @@
     padding: 0;
 }
 
+.checkitout{
+    text-align: center;
+}
 
+.moreprojects{
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 .cardcontainer{
     
