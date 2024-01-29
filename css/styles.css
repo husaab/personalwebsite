@@ -292,6 +292,34 @@
     margin-bottom: 10px;
 }
 
+.skillslogos{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.mt-2{
+    font-weight: 700;
+}
+.skillslogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
 .experiencepart{
     margin: 0 auto;
     width: 60%;
@@ -300,7 +328,8 @@
 
 .vertical-timeline * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
+    z-index: 1;
 }
 
 .vertical-timeline {
