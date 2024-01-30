@@ -7,6 +7,8 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -38,6 +40,10 @@
 
 .navbar{
     background: #00316E;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 50px;
 }
 
 .nav-link{
@@ -52,8 +58,9 @@
 
 
 .img-thumbnail{
+    margin-top: 60px;
     width: 300px;
-    margin-bottom: 15px;
+    
     background-color:white;
     padding: 5px;
     position: relative;
@@ -304,6 +311,16 @@
 .text-5xl{
     font-size: 3rem;
     line-height: 1;
+}
+
+@media only screen and (max-width: 700px){
+    .text-5xl{
+        font-size: 1.5rem;
+    }
+
+    .mt-2{
+        font-size: 13px;
+    }
 }
 
 .mt-2{
