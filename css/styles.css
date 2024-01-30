@@ -21,7 +21,6 @@
 }
 
 .hvr-grow:hover,
-.hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
 }
@@ -53,6 +52,24 @@
 .insidehero{
     background-color: white;
     padding: 10px;
+}
+
+.resume{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    border-radius: 9999px;
+    
+}
+
+
+
+@media only screen and (max-width: 478px){
+    .resume{
+        margin-top: 10px;
+    }
 }
 
 
