@@ -89,28 +89,34 @@
     <section class="section about" id="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p class="about-text">
-                    I'm a third-year Computer Science student at Toronto Metropolitan University on the co-op program.
-                    I'm passionate about full-stack development and building impactful software that solves real problems.
-                </p>
-                <p class="about-text">
-                    Currently, I'm working as a Peer Co-op Advisor helping fellow students navigate their career journey,
-                    and I'm excited to be joining Super.com as a Full Stack Software Engineer Intern in January 2026.
-                </p>
-                <div class="about-contact">
-                    <div class="about-contact-item">
-                        <span class="about-contact-label">Email</span>
-                        <a href="mailto:husseinsaab14@gmail.com">husseinsaab14@gmail.com</a>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm a third-year Computer Science student at Toronto Metropolitan University on the co-op program.
+                        I'm passionate about full-stack development and building impactful software that solves real problems.
+                    </p>
+                    <p class="about-text">
+                        Currently, I'm working as a Peer Co-op Advisor helping fellow students navigate their career journey,
+                        and I'm excited to be joining Super.com as a Full Stack Software Engineer Intern in January 2026.
+                    </p>
+                    <div class="about-contact">
+                        <div class="about-contact-item">
+                            <span class="about-contact-label">Email</span>
+                            <a href="mailto:husseinsaab14@gmail.com">husseinsaab14@gmail.com</a>
+                        </div>
+                        <div class="about-contact-item">
+                            <span class="about-contact-label">Phone</span>
+                            <a href="tel:+16475287842">647-528-7842</a>
+                        </div>
+                        <div class="about-contact-item">
+                            <span class="about-contact-label">Location</span>
+                            <span>Toronto, Ontario</span>
+                        </div>
                     </div>
-                    <div class="about-contact-item">
-                        <span class="about-contact-label">Phone</span>
-                        <a href="tel:+16475287842">647-528-7842</a>
-                    </div>
-                    <div class="about-contact-item">
-                        <span class="about-contact-label">Location</span>
-                        <span>Toronto, Ontario</span>
-                    </div>
+                </div>
+                <div class="about-image">
+                    <!-- PHOTO: about-image - Replace with your photo -->
+                    <img src="images/toronto.jpg" alt="Hussein Saab" class="about-photo">
                 </div>
             </div>
         </div>
@@ -443,9 +449,20 @@
         const navToggle = document.getElementById('nav-toggle');
         const navMenu = document.getElementById('nav-menu');
 
-        navToggle.addEventListener('click', () => {
+        navToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (navMenu.classList.contains('active') &&
+                !navMenu.contains(e.target) &&
+                !navToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            }
         });
 
         // Navbar background on scroll

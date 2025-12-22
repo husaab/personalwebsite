@@ -440,8 +440,29 @@ a {
     background: var(--cream);
 }
 
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
 .about-content {
     max-width: 720px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+}
+
+.about-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(10, 25, 47, 0.15);
+    object-fit: cover;
 }
 
 .about-text {
@@ -1110,6 +1131,15 @@ a {
     }
 
     /* About Mobile */
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-image {
+        display: none;
+    }
+
     .about-contact {
         flex-direction: column;
         gap: 24px;
