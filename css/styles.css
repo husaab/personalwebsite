@@ -280,15 +280,51 @@ a {
 }
 
 .hero-link:hover {
-    background: var(--gold);
-    border-color: var(--gold);
-    color: var(--navy-900);
     transform: translateY(-3px);
 }
 
 .hero-link svg {
     width: 20px;
     height: 20px;
+}
+
+/* GitHub - Black & White */
+.hero-link-github {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #181717;
+}
+
+.hero-link-github:hover {
+    background: #181717;
+    border-color: #181717;
+    color: #ffffff;
+}
+
+/* LinkedIn - Blue & White */
+.hero-link-linkedin {
+    background: #0A66C2;
+    border-color: #0A66C2;
+    color: #ffffff;
+}
+
+.hero-link-linkedin:hover {
+    background: #004182;
+    border-color: #004182;
+    color: #ffffff;
+}
+
+/* Email/Gmail - Red & White */
+.hero-link-email {
+    background: #EA4335;
+    border-color: #EA4335;
+    color: #ffffff;
+}
+
+.hero-link-email:hover {
+    background: #c5221f;
+    border-color: #c5221f;
+    color: #ffffff;
 }
 
 /* Hero Image */
