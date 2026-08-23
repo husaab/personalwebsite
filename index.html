@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hussein Saab | Software Engineer</title>
-    <meta name="description" content="Hussein Saab - Software Engineer. Incoming SWE @ Super | Prev @ IBM | CS @ TMU">
+    <meta name="description" content="Hussein Saab - Software Engineer. SWE Intern @ Shopify | Prev @ Autodesk, Super.com, IBM | CS @ TMU">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <!-- Fonts -->
@@ -42,7 +42,7 @@
                 <p class="hero-greeting">Hello, I'm</p>
                 <h1 class="hero-name">Hussein Saab</h1>
                 <p class="hero-title">Software Engineer</p>
-                <p class="hero-subtitle">Incoming SWE @ Super | Prev @ IBM | CS @ TMU</p>
+                <p class="hero-subtitle">SWE Intern @ Shopify | Prev @ Autodesk, Super.com, IBM | CS @ TMU</p>
                 <p class="hero-description">Passionate about building software that makes an impact.</p>
 
                 <div class="hero-links">
@@ -92,12 +92,14 @@
             <div class="about-grid">
                 <div class="about-content">
                     <p class="about-text">
-                        I'm a third-year Computer Science student at Toronto Metropolitan University on the co-op program.
-                        I'm passionate about full-stack development and building impactful software that solves real problems.
+                        I'm a Computer Science student at Toronto Metropolitan University on the co-op program.
+                        I'm passionate about full-stack and distributed systems development, and building impactful
+                        software that solves real problems.
                     </p>
                     <p class="about-text">
-                        Currently, I'm working as a Peer Co-op Advisor helping fellow students navigate their career journey,
-                        and I'm excited to be joining Super.com as a Full Stack Software Engineer Intern in January 2026.
+                        I'm currently a Software Engineer Intern at Shopify on the Merchant Subscriptions team.
+                        Previously, I built multi-region payment infrastructure and AI agents at Autodesk, shipped
+                        travel and fintech features at Super.com, and developed backend microservices at IBM.
                     </p>
                     <div class="about-contact">
                         <div class="about-contact-item">
@@ -128,6 +130,50 @@
             <h2 class="section-title">Experience</h2>
 
             <div class="timeline">
+                <!-- Shopify -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div class="experience-logo">
+                                <!-- LOGO: shopify - Replace with Shopify logo -->
+                                <img src="images/shopifylogo.png" alt="Shopify" class="company-logo">
+                            </div>
+                            <div class="experience-info">
+                                <h3 class="experience-title">Software Engineer Intern</h3>
+                                <p class="experience-company">Shopify</p>
+                                <p class="experience-meta">Aug 2026 – Present · Toronto, ON (Hybrid)</p>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Working on the Merchant Subscriptions team at Shopify, supporting millions of entrepreneurs and businesses.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Autodesk -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <div class="experience-logo">
+                                <!-- LOGO: autodesk - Replace with Autodesk logo -->
+                                <img src="images/autodesklogo.png" alt="Autodesk" class="company-logo">
+                            </div>
+                            <div class="experience-info">
+                                <h3 class="experience-title">Software Engineer Intern</h3>
+                                <p class="experience-company">Autodesk</p>
+                                <p class="experience-meta">May 2026 – Aug 2026 · Toronto, ON (Hybrid)</p>
+                            </div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Built TypeScript microservices and AWS CDK infrastructure for Autodesk's multi-region e-commerce payment systems using Lambda, DynamoDB Global Tables, SQS, EventBridge, Route 53 failover, and CloudWatch.</li>
+                            <li>Developed and deployed a cloud-hosted LangGraph investigation agent using AWS CDK and CloudFormation, integrating Splunk, Dynatrace, CloudWatch, GitHub, and Atlassian MCP tools to correlate logs, traces, deployments, and source code.</li>
+                            <li>Deployed the agent to customer-support Slack channels, helping on-call engineers resolve 30+ critical e-commerce incidents, proactively detecting 44+ failed purchases before escalation, and reducing investigation time by 60%.</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <!-- Super.com -->
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
@@ -144,7 +190,10 @@
                             </div>
                         </div>
                         <ul class="experience-details">
-                            <li>Incoming Full Stack Software Engineer Intern on the Product team at Super.com, a high-growth fintech and travel startup backed by over $150 million in Series C funding.</li>
+                            <li>Shipped end-to-end hotel booking and fintech features, including higher initial cashback, multi-room bookings, and Hopper Deals, contributing to $5M+ in revenue.</li>
+                            <li>Owned features from TypeScript and XState frontends through Flask and gRPC backends, instrumenting and rolling out experiments with Amplitude and monitoring with Datadog.</li>
+                            <li>Planned and executed secure consolidation of two active PostgreSQL booking tables with 7M+ records using incremental migration strategies (dual writes, backfill) with zero downtime.</li>
+                            <li>Built and deployed scalable booking services on AWS and Kubernetes using Protocol Buffers, SQLAlchemy, JSONB, and GitLab CI/CD.</li>
                         </ul>
                     </div>
                 </div>
@@ -161,7 +210,7 @@
                             <div class="experience-info">
                                 <h3 class="experience-title">Peer Co-op Advisor</h3>
                                 <p class="experience-company">Career, Co-op & Student Success Centre at TMU</p>
-                                <p class="experience-meta">Aug 2025 – Present · Toronto, ON (Hybrid)</p>
+                                <p class="experience-meta">Aug 2025 – Apr 2026 · Toronto, ON (Hybrid)</p>
                             </div>
                         </div>
                         <ul class="experience-details">
@@ -187,10 +236,10 @@
                             </div>
                         </div>
                         <ul class="experience-details">
-                            <li>Developed and tested software for IBM Supply Chain Intelligence Suite's Provisioning, User Management, and Access Control team using a Microservices Architecture with Java, Spring Boot, Kafka, Redis, and Cassandra.</li>
-                            <li>Designed, developed, and deployed a Kafka monitoring microservice using Kubernetes on IBM Cloud and Docker, enabling real-time tracking of millions of events across 6+ microservices.</li>
-                            <li>Implemented REST APIs with advanced features: cursor/offset-based pagination, retry mechanisms, JWT authentication, and caching strategies—resulting in a 65% reduction in response times.</li>
-                            <li>Created integration and unit tests using JUnit, Mockito and Karate with automated pipelines in Jenkins.</li>
+                            <li>Developed access-control microservices for IBM Supply Chain Intelligence Suite using Java, Spring Boot, Kafka, Redis, and Cassandra, covering user groups, permissions, and secure feature access.</li>
+                            <li>Deployed a Kafka monitoring service with Kubernetes on IBM Cloud and Docker, tracking 5M+ daily events across 10+ microservices and reducing manual monitoring by 40%.</li>
+                            <li>Created and optimized REST APIs with caching, cursor/offset pagination, retry logic, and JWT authentication, reducing response times by 65%.</li>
+                            <li>Automated unit, integration, and API testing using JUnit, Mockito, Karate, and Jenkins.</li>
                         </ul>
                     </div>
                 </div>
@@ -235,9 +284,9 @@
                 <div class="education-info">
                     <h3 class="education-school">Toronto Metropolitan University</h3>
                     <p class="education-degree">Bachelor of Science in Computer Science, Co-op</p>
-                    <p class="education-dates">September 2022 – April 2027</p>
+                    <p class="education-dates">September 2022 – December 2027</p>
                     <div class="education-details">
-                        <span class="education-gpa">GPA: 3.9</span>
+                        <span class="education-gpa">GPA: 3.8 / 4.33</span>
                         <span class="education-award">Faculty of Science Dean's List: 2022 – Present</span>
                     </div>
                 </div>
@@ -257,13 +306,13 @@
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">SchoolMule</h3>
-                    <p class="project-subtitle">Student Management System</p>
+                    <p class="project-subtitle">AI Student Management System</p>
                     <p class="project-description">
                         A full-stack web application that empowers schools to manage student records, track grades,
                         generate automated report cards, handle tuition and finances, and provide a dedicated parent portal.
                     </p>
                     <ul class="project-highlights">
-                        <li>Adopted by 4 underfunded private schools, serving 1,300+ students and 150+ teachers</li>
+                        <li>Adopted by 4 underfunded private schools, serving 2,000+ students and 150+ teachers</li>
                         <li>Reduced administrative workload by 2,000+ hours annually</li>
                         <li>Built with Next.js, TypeScript, Node.js, Express, PostgreSQL, Redis, and AWS S3</li>
                     </ul>
@@ -301,44 +350,68 @@
                 <div class="skill-category">
                     <h3 class="skill-category-title">Languages</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">TypeScript</span>
                         <span class="skill-tag">Java</span>
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">TypeScript</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">C/C++</span>
                         <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Rust</span>
+                        <span class="skill-tag">C/C++</span>
                         <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">HTML/CSS</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3 class="skill-category-title">Frameworks</h3>
+                    <h3 class="skill-category-title">Frameworks &amp; Libraries</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">React</span>
                         <span class="skill-tag">Next.js</span>
-                        <span class="skill-tag">Angular</span>
                         <span class="skill-tag">Node.js</span>
                         <span class="skill-tag">Express</span>
                         <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">GraphQL</span>
-                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">XState</span>
+                        <span class="skill-tag">SQLAlchemy</span>
+                        <span class="skill-tag">LangGraph</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3 class="skill-category-title">Developer Tools</h3>
+                    <h3 class="skill-category-title">Cloud &amp; Infrastructure</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Docker</span>
                         <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Jenkins</span>
-                        <span class="skill-tag">Kafka</span>
-                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">AWS CDK</span>
                         <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitLab CI/CD</span>
+                        <span class="skill-tag">Jenkins</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data &amp; Messaging</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">DynamoDB</span>
+                        <span class="skill-tag">Cassandra</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">SQS</span>
+                        <span class="skill-tag">EventBridge</span>
+                        <span class="skill-tag">gRPC</span>
+                        <span class="skill-tag">Protocol Buffers</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Observability &amp; Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">CloudWatch</span>
+                        <span class="skill-tag">Splunk</span>
+                        <span class="skill-tag">Datadog</span>
+                        <span class="skill-tag">Dynatrace</span>
+                        <span class="skill-tag">Amplitude</span>
+                        <span class="skill-tag">Git</span>
                         <span class="skill-tag">Linux/UNIX</span>
                     </div>
                 </div>
@@ -423,7 +496,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Hussein Saab. All rights reserved.</p>
+            <p>&copy; 2026 Hussein Saab. All rights reserved.</p>
         </div>
     </footer>
 
